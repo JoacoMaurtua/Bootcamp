@@ -117,13 +117,64 @@ console.log(x); //15 15 10 15
 
 /*****EJERCICIO 13*****/
 
-for(var i=0; i<3; i++) {  //O(n^2)
+/*for(var i=0; i<3; i++) {  //O(n^2)
   for(var j=0; j<2; j++)
   {   
       console.log(i*j);  // 0 0 0 1 0 2
   }
 }
 
+/*****EJERCICIO 14*****/
+
+/*function looping(x,y)
+{
+  for(var i = 0; i<x; i++){
+    for(var j=0; j<x; j++){
+      console.log(i*j);
+    }
+  }
+}
+z = looping(3,3);
+console.log(z);
+
+/*****EJERCICIO 15******/
+
+/*function looping(x,y)
+{
+  for(var i = 0; i<x; i++){
+    for(var j=0; j<y; j++){
+      console.log(i*j);
+    }
+  }
+  return x*y;
+}
+z = looping(3,5);
+console.log(z);
+
+
+/*****EJERCICIO 16******/
+//Por favor, completa los siguientes códigos para que la función imprima (print) todos los enteros (integers) de 1 a x. Si x es negativo, haz que se muestre (print/log) “número negativo” y que la función devuelva falso.
+
+function printUpTo(x)
+{
+  if(x<0)
+  {
+    console.log('numero negativo');
+    return false;
+  }
+  else{
+    for(var i =0; i<x; i++)
+    {
+      console.log(i);
+    }
+    
+  }
+
+}
+
+ printUpTo(1000);
+/*y = printUpTo(10);
+console.log(y);*/
 
 
 
