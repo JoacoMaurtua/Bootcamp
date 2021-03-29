@@ -1,0 +1,153 @@
+/*********SOLUTION ONE****************/
+
+/**{
+  margin: 0px;
+  padding: 0px;
+ }
+
+#wrapper {
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  height: 650px;
+  padding: 20px;
+}
+#header {
+  min-height: 150px;
+  background-color: green;
+  padding: 20px;
+}
+
+#navigation {
+  min-height: 300px;
+  width: 200px;
+  background-color: blue;
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+#main_content {                
+  min-height: 430px;
+  width: 720px;
+  background-color: red;
+  margin: -320px 230px 320px;
+}
+
+.subcontents {
+  min-height: 200px;
+  width: 210px;
+  background-color: yellow;
+  display: inline-block;
+  margin: 20px 0px 0px 10px;
+}
+
+#tercero {
+  margin-left: 15px;
+}
+
+#advertisement {
+  min-height: 120px;
+  width: 660px;
+  background-color: purple;
+  margin: 20px 20px 20px 15px;
+}
+*/
+
+/*********SOLUTION TWO**********/
+/*RECOMENDADO*/
+
+#wrapper {
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  height: 1000px;
+  padding: 15px;
+}
+
+#header {
+  min-height: 150px;
+  background-color: green;
+  margin-bottom: 15px;
+}
+
+#navigation {
+  min-height: 300px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#main_content {
+  min-height: 400px;
+  width: 700px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 15px;
+}
+
+.subcontents {
+  min-height: 200px;
+  width: 210px;
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#advertisement {
+  min-height: 120px;
+  width: 660px;
+  background-color: purple;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/************SOLUTION TREE**********/
+
+/*
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 1px dotted black;
+
+ }
+
+ #wrapper{
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  padding: 15px;
+ }
+ #header{
+  min-height: 150px;
+  background-color: green;
+  margin-bottom: 15px;
+ }
+ #navigation{
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+ }
+ #main_content{
+  min-height: 400px;
+  width: 726px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 19px;
+ }
+ .subcontents{
+  min-height: 200px;
+  width: 210px;
+  background-color: yellow;
+  display: inline-block;
+  margin: 15px 5px 0px 10px;
+ }
+ #advertisement{
+  min-height: 120px;
+  width: 660px;
+  background-color: purple;
+  margin: 15px;
+ }*/
