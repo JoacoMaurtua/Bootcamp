@@ -90,8 +90,41 @@ console.log(multiply(5,2)); //6 10
 
 /*****EJERCICIO 10*****/
 
-var x = [1, 2, 3, 4, 5, 10];
+/*var x = [1, 2, 3, 4, 5, 10];
 for (var i = 0; i < 5; i++) {
   i = i + 3;
   console.log(i);
 }
+
+/*****EJERCICIO 11*****/
+
+/*var x = 15;
+console.log(x);
+function awesome(){
+  var x = 10;
+  console.log(x);
+}
+console.log(x);
+awesome();
+console.log(x); //15 15 10 15
+
+/*****EJERCICIO 12*****/
+
+/*for(var i =0; i<15; i+=2)
+{
+  console.log(i); // 0 2 4 6 8 10 12 14
+} 
+
+/*****EJERCICIO 13*****/
+
+for(var i=0; i<3; i++) {  //O(n^2)
+  for(var j=0; j<2; j++)
+  {   
+      console.log(i*j);  // 0 0 0 1 0 2
+  }
+}
+
+
+
+
+
