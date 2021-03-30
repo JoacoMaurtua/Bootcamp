@@ -112,3 +112,46 @@ body {
 }
 
 /*******END THE NAVBAR******/
+
+
+/*******BEGIN THE SITEBAR******/
+
+#container .siteBar ul
+{
+  margin-left: 137px;
+  margin-top: 25px;
+  text-align: center;
+  display: inline-block;
+  color: #c3a907;
+  list-style:none;
+ 
+}
+
+#container .siteBar ul li{
+  margin-top: 8px;
+}
+
+#container .siteBar ul li a{
+  color: white;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+#container .siteBar ul li i{
+  font-size: 6px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******END THE SITEBAR******/
