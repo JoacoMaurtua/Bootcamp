@@ -155,7 +155,7 @@ console.log(z);
 /*****EJERCICIO 16******/
 //Por favor, completa los siguientes códigos para que la función imprima (print) todos los enteros (integers) de 1 a x. Si x es negativo, haz que se muestre (print/log) “número negativo” y que la función devuelva falso.
 
-function printUpTo(x)
+/*function printUpTo(x)
 {
   if(x<0)
   {
@@ -176,6 +176,34 @@ function printUpTo(x)
 /*y = printUpTo(10);
 console.log(y);*/
 
+/*******EJERCICIO 17*****/
 
+  /*function printSum(x){
+    var sum = 0;
+    for(var i = 0; i<=x; i++)
+    {
+      sum += i;
+      console.log(sum);
+    }
+    return sum; 
+
+  }
+  y = printSum(255);
+  console.log('y es',y)
+
+
+  /*****EJERCICIO 18******/
+
+  function printSumArray(x)
+  {
+    var sum = 0;
+    for(var i = 0; i<x.length; i++)
+    {
+      sum += x[i];
+    }
+    return sum;
+  }
+
+  console.log(printSumArray([1,2,3]));
 
 
