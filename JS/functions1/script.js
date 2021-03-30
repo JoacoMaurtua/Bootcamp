@@ -178,7 +178,7 @@ console.log(y);*/
 
 /*******EJERCICIO 17*****/
 
-  /*function printSum(x){
+/*function printSum(x){
     var sum = 0;
     for(var i = 0; i<=x; i++)
     {
@@ -194,7 +194,7 @@ console.log(y);*/
 
   /*****EJERCICIO 18******/
 
-  function printSumArray(x)
+/* function printSumArray(x)
   {
     var sum = 0;
     for(var i = 0; i<x.length; i++)
@@ -206,4 +206,17 @@ console.log(y);*/
 
   console.log(printSumArray([1,2,3]));
 
+  /*****EJERCICIO 19*****/
 
+function greaterThan(arr) {
+  let greater = arr[0];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > greater) {
+      greater = arr[i];
+    }
+  }
+  return greater;
+}
+
+y = greaterThan([1, 30, 5, 7]);
+console.log(y);
