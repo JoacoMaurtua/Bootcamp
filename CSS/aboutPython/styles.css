@@ -90,7 +90,7 @@ body {
   display: inline-block;
   background-color: #447dad;
   margin-left: 90px;
-  padding: 10px 45px;
+  padding: 10px 50px;
   border-radius: 5px;
   margin-top: -13px;
   box-shadow: 2px 2px black;
@@ -113,45 +113,70 @@ body {
 
 /*******END THE NAVBAR******/
 
-
 /*******BEGIN THE SITEBAR******/
 
-#container .siteBar ul
-{
+#container .siteBar {
+  width: 300px;
+  display: inline-block;
+}
+
+#container .siteBar ul {
   margin-left: 137px;
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: center;
   display: inline-block;
   color: #c3a907;
-  list-style:none;
- 
+  list-style: none;
 }
 
-#container .siteBar ul li{
+#container .siteBar ul li {
   margin-top: 8px;
 }
 
-#container .siteBar ul li a{
+#container .siteBar ul li a {
   color: white;
   font-size: 14px;
   margin-left: 2px;
 }
 
-#container .siteBar ul li i{
+#container .siteBar ul li i {
   font-size: 6px;
   vertical-align: middle;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*******END THE SITEBAR******/
+
+/*******BEGIN THE MAIN CONTENT******/
+
+#container .mainContent {
+  display: inline-block;
+  width: 597px;
+  margin-left: 315px;
+  margin-top: -197px;
+  vertical-align: top;
+}
+
+#container .mainContent p {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+#container .mainContent ul {
+  list-style: none;
+  text-align: center;
+}
+
+#container .mainContent ul li {
+  margin-top: 12px;
+  color: #c3a907;
+  font-style: italic;
+}
+
+#container .mainContent ul li:last-child {
+  color: white;
+  font-style: normal;
+}
+
+/*******END THE MAIN CONTENT******/
