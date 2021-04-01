@@ -13,7 +13,7 @@ body {
   background-color: #245076;
   width: 970px;
   min-height: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /******BEGIN THE HEADER*******/
@@ -32,6 +32,7 @@ body {
   display: inline-block;
   vertical-align: top;
   margin-left: 340px;
+  margin-top: 3px;
   font-size: 13px;
 }
 
@@ -184,19 +185,17 @@ body {
 
 /*******BEGIN THE INFO CONTENT******/
 
-#container .information{
-  height: 350px;
+#container .information {
+  height: 275px;
   background-color: white;
   padding-left: 40px;
-  
 }
 
-#container .information #GS{
+#container .information #GS {
   margin-right: -16px;
 }
 
-#container .information .colum
-{
+#container .information .colum {
   display: inline-block;
   width: 410px;
   text-align: center;
@@ -204,42 +203,37 @@ body {
   margin-top: 12px;
   vertical-align: top;
   border-top: 7px solid #73a7d5;
-  
 }
 
-#container .information .colum h4{
+#container .information .colum h4 {
   display: inline-block;
   margin-left: -42px;
   margin-top: 3px;
-
 }
 
-#container .information .colum p{
+#container .information .colum p {
   font-size: 14px;
   margin-top: 10px;
   margin-left: 15px;
   width: 340px;
-  
 }
 
-#container .information #GS p{
+#container .information #GS p {
   width: 343px;
   margin-left: 15px;
 }
 
-#container .information .colum ul{
+#container .information .colum ul {
   width: 270px;
   margin-left: 67px;
 }
 
-
-#container .information .colum ul li{
+#container .information .colum ul li {
   margin-top: 5px;
-  list-style:square;
-
+  list-style: square;
 }
 
-#container .information  a{
+#container .information a {
   text-decoration: none;
   color: #89bfee;
   font-size: 14px;
@@ -249,18 +243,35 @@ body {
 
 /*******BEGIN THE FOOTER******/
 
+#container .Footer {
+  height: 130px;
+  background: linear-gradient(180deg, #26557d, #3270a6);
+  text-align: center;
+}
 
+#container .Footer ul {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+}
 
+#container .Footer ul li {
+  display: inline-block;
+  margin: 60px 0px 0px 50px;
+}
 
+#container .Footer ul li a {
+  text-decoration: none;
+  color: #89bfee;
+  font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+#container .Footer p {
+  margin-top: 15px;
+  color: #89bfee;
+  font-size: 15px;
+}
 
 /*******END THE FOOTER******/
+
+
