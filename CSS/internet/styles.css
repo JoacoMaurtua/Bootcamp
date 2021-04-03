@@ -155,3 +155,81 @@ hr{
 }
 
 /*******END THE SITEBAR*******/
+
+/*******BEGIN THE MAIN SECTION*******/
+
+/********TOP SECTION*******/
+
+#container .mainSection{
+  display: inline-block;
+  width: 726px;
+  min-height: 548px;
+  overflow: hidden;
+}
+
+#container .mainSection .top .home{
+  height: 20px;
+  width: 22px;
+  margin-top: 10px;
+  margin-left: 18px;
+  vertical-align: top;
+}
+
+#container .mainSection .top  a{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+  margin-left: 3px;
+  font-weight: bolder;
+  padding: 0px;
+  color: #4278a8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#container .mainSection .top .phone{
+  width: 45px;
+  margin-left: 427px;
+  margin-right: 15px;
+  margin-top: -40px;
+  vertical-align: middle;
+}
+
+#container .mainSection .top h3{              /*PARA ESTE TIPO DE ELEMENTOS YA NO USARE UNA LISTA, SINO UN SPAN */
+  display: inline-block;
+  margin-left: 558px;
+  vertical-align: top;
+  margin-top: -43px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 23px;
+  margin-right: 20px;
+  color: #01c0df;
+  
+}
+
+#container .mainSection .top ul{
+  display: inline-block;
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+ 
+  
+}
+
+#container .mainSection .top ul li{
+  color: #7d7d7d;
+}
+
+#container .mainSection .top ul li:first-child{
+  margin-bottom: 35px;
+}
+
+#container .mainSection .top hr{
+  width: 710px;
+  margin-top: -12px;
+  vertical-align: middle;
+ 
+}
+
+/********END TOP SECTION*******/
