@@ -79,7 +79,7 @@ body{
   font-weight: bold;
   font-size: 15px;
   padding-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 #container .siteBar p span{
@@ -91,11 +91,11 @@ hr{
 }
 
 #container .siteBar button{
-  margin-left: 10px;
+  margin-left: 5px;
   padding: 8px 15px;
   box-shadow: 2px 3px rgb(161, 158, 158);
   border-radius: 5px;
-  width: 210px;
+  width: 215px;
   font-size: 16px;
   font-weight: bold;
   margin-top: 8px;
@@ -111,12 +111,12 @@ hr{
 }
 
 hr{
-  width: 220px;
+  width: 219px;
   margin-top: 28px;
 }
 
 #container .siteBar .Add{
-  width: 225px;
+  width: 220px;
   min-height: 320px;
   box-shadow: 3px 3px rgb(161, 158, 158);
   margin-top: 28px;
@@ -131,7 +131,7 @@ hr{
   font-size: 25px;
   font-weight: normal;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 22px;
 }
 
 #container .siteBar .Add img{
@@ -147,6 +147,7 @@ hr{
   width: 190px;
   box-shadow: 2px 3px rgb(43, 41, 41); 
   font-size: 18px;
+  margin-left: 14px;
 }
 
 #container .siteBar .Add button i{
