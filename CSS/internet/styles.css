@@ -1,49 +1,49 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   /*outline: 2px solid red;*/
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 
 #container {
   overflow: visible;
-  background: linear-gradient(0deg, white, #e7e7e7);
-  width: 970px;
+  background: linear-gradient(0deg, #fff, #ffffff, #f0ebeb);
+  width: 1000px;
   min-height: 650px;
   margin: 20px auto;
 }
 
 /*******BEGIN THE HEADER SECTION*******/
 
-#container .header{
+#container .header {
   background-color: white;
   min-height: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
-#container .header img{
+#container .header img {
   width: 100px;
   margin-left: 10px;
 }
 
-#container .header h1{
+#container .header h1 {
   font-size: 50px;
-  font-weight:bold;
+  font-weight: bold;
   display: inline-block;
   vertical-align: top;
   margin-top: 22px;
   color: #474747;
-  
 }
 
-#container .header h1 span{
+#container .header h1 span {
   color: #3572a6;
 }
 
-#container .header h2{
+#container .header h2 {
   font-size: 35px;
   font-weight: bold;
   padding: 12px 0px;
@@ -53,28 +53,28 @@ body{
   margin-top: -21px;
 }
 
-
 /*******END THE HEADER SECTION*******/
 
 /*******BEGIN THE SITEBAR*******/
 
-#container .siteBar{
+#container .siteBar {
   display: inline-block;
   width: 240px;
   font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
 }
 
-#container .siteBar h4{
+#container .siteBar h4 {
   font-size: 17px;
   font-weight: bolder;
   margin: 25px 0px 10px 5px;
 }
 
-#container .siteBar h4 span{
+#container .siteBar h4 span {
   color: #ca201a;
 }
 
-#container .siteBar p{
+#container .siteBar p {
   margin-left: 5px;
   font-weight: bold;
   font-size: 15px;
@@ -82,15 +82,15 @@ body{
   margin-bottom: 12px;
 }
 
-#container .siteBar p span{
+#container .siteBar p span {
   color: #3170a4;
 }
 
-hr{
+hr {
   margin-top: 20px;
 }
 
-#container .siteBar button{
+#container .siteBar button {
   margin-left: 5px;
   padding: 8px 15px;
   box-shadow: 2px 3px rgb(161, 158, 158);
@@ -102,29 +102,28 @@ hr{
   color: white;
 }
 
-#container .siteBar #blue{
-  background: linear-gradient(180deg, #548cbb, #3170a7 );
+#container .siteBar #blue {
+  background: linear-gradient(180deg, #548cbb, #3170a7);
 }
 
-#container .siteBar #orange{
-  background: linear-gradient(180deg, #eba74b, #ee8000 );
+#container .siteBar #orange {
+  background: linear-gradient(180deg, #eba74b, #ee8000);
 }
 
-hr{
+hr {
   width: 219px;
   margin-top: 28px;
 }
 
-#container .siteBar .Add{
+#container .siteBar .Add {
   width: 220px;
   min-height: 320px;
   box-shadow: 3px 3px rgb(161, 158, 158);
   margin-top: 28px;
   background: url(images/ad_background.png);
-
 }
 
-#container .siteBar .Add p{
+#container .siteBar .Add p {
   color: white;
   display: inline-block;
   text-align: center;
@@ -134,23 +133,22 @@ hr{
   margin-left: 22px;
 }
 
-#container .siteBar .Add img{
+#container .siteBar .Add img {
   width: 100px;
   margin-left: 58px;
   margin-top: -14px;
-
 }
 
-#container .siteBar .Add button{
+#container .siteBar .Add button {
   background: linear-gradient(180deg, #66cede, #02a1b9);
   padding: 5px 0px;
   width: 190px;
-  box-shadow: 2px 3px rgb(43, 41, 41); 
+  box-shadow: 2px 3px rgb(43, 41, 41);
   font-size: 18px;
   margin-left: 14px;
 }
 
-#container .siteBar .Add button i{
+#container .siteBar .Add button i {
   vertical-align: middle;
 }
 
@@ -160,22 +158,23 @@ hr{
 
 /********TOP SECTION*******/
 
-#container .mainSection{
+#container .mainSection {
   display: inline-block;
   width: 726px;
   min-height: 548px;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#container .mainSection .top .home{
+#container .mainSection .top .home {
   height: 20px;
   width: 22px;
   margin-top: 10px;
-  margin-left: 18px;
+  margin-left: 16px;
   vertical-align: top;
 }
 
-#container .mainSection .top  a{
+#container .mainSection .top a {
   display: inline-block;
   vertical-align: top;
   margin-top: 13px;
@@ -187,7 +186,7 @@ hr{
   text-decoration: none;
 }
 
-#container .mainSection .top .phone{
+#container .mainSection .top .phone {
   width: 45px;
   margin-left: 427px;
   margin-right: 15px;
@@ -195,41 +194,134 @@ hr{
   vertical-align: middle;
 }
 
-#container .mainSection .top h3{              /*PARA ESTE TIPO DE ELEMENTOS YA NO USARE UNA LISTA, SINO UN SPAN */
+#container .mainSection .top h3 {
+  /*PARA ESTE TIPO DE ELEMENTOS YA NO USARE UNA LISTA, SINO UN SPAN */
   display: inline-block;
   margin-left: 558px;
   vertical-align: top;
   margin-top: -43px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 23px;
   margin-right: 20px;
   color: #01c0df;
-  
 }
 
-#container .mainSection .top ul{
+#container .mainSection .top ul {
   display: inline-block;
   list-style: none;
   font-size: 10px;
   font-weight: bold;
- 
-  
 }
 
-#container .mainSection .top ul li{
+#container .mainSection .top ul li {
   color: #7d7d7d;
 }
 
-#container .mainSection .top ul li:first-child{
+#container .mainSection .top ul li:first-child {
   margin-bottom: 35px;
 }
 
-#container .mainSection .top hr{
+#container .mainSection .top hr {
   width: 710px;
   margin-top: -12px;
   vertical-align: middle;
- 
+  margin-left: 15px;
 }
 
 /********END TOP SECTION*******/
+
+#container .mainSection h4 {
+  color: #427aab;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 14px;
+}
+
+#container .mainSection p {
+  margin: 5px 0px 0px 14px;
+  font-size: 14px;
+}
+
+#container .mainSection .texto1 {
+  margin-left: 60px;
+}
+
+#container .mainSection .texto1 li {
+  margin-top: 8px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+#container .mainSection .texto1 li span {
+  color: #44b4c5;
+}
+
+#container .mainSection .clientServer {
+  width: 260px;
+  margin: 10px 0px 0px 215px;
+}
+
+#container .mainSection ol {
+  margin-left: 60px;
+}
+
+#container .mainSection ol li {
+  margin-top: 8px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+#container .mainSection ol li span {
+  color: #44b4c5;
+}
+
+
+/********BIG3 SECTION*******/
+#container .mainSection .wrapper {
+  border: 5px solid #0085e0;
+  box-shadow: 2px 3px rgb(161, 158, 158);
+  border-bottom: none;
+  display: inline-block;
+  width: 634px;
+  margin-left: 41px;
+  margin-top: 20px;
+
+}
+
+#container .mainSection .wrapper img{
+  width: 100px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+#container .mainSection .wrapper h4{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+
+#container .mainSection .wrapper p{
+  display: inline-block;
+  padding-right:40px;
+  vertical-align: top;
+  margin-left: 128px;
+  margin-top: -70px;
+  
+}
+
+#container .mainSection .wrapper a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #44b4c5;
+}
+
+
+
+
+
+
+
+
+
+/********END BIG3 SECTION*******/
