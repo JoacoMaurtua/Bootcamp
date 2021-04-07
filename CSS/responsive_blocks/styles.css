@@ -8,7 +8,7 @@
 
 #header {
   width: 100%;
-  min-height: 15%;
+  min-height: 12%;
   background-color: green;
   margin-bottom: 2%;
 }
@@ -50,40 +50,67 @@
 
 @media screen and (max-width: 480px)
 {
+    #wrapper{
+      width: 90%;
+    }
+
+    #header {
+      width: 100%;
+    }
+
+    #navigation{
+      display: none;
+    }
+
+    #main_content {
+      margin-left: 0%;
+      margin-top: 1%;
+      padding-top: 2%;
+      padding-bottom: 8%;
+      width: 97%;
+    }
+
+    .subcontents{
+      width: 86%;
+      margin-left: 6%;
+      margin-top: 6%;
+    }
+
+    #advertisement{
+      margin-left: 6%;
+      margin-top: 10%;
+      width: 86.5%;
+    }
 
 }
 
 @media screen and (min-width: 481px) and (max-width: 1023px)
 {
-  #wrapper{
-    width: 60%;
-  }
+    #wrapper{
+      width: 60%;
+    }
 
-  #header {
-    width: 100%;
-  }
+    #header {
+      width: 100%;
+    }
 
-  #navigation{
-    display: none;
-  }
-  #main_content {
-    margin-left: 0%;
-    margin-top: 1%;
-    padding-top: 2%;
-    width: 97%;
-  }
+    #navigation{
+      display: none;
+    }
+    #main_content {
+      margin-left: 0%;
+      margin-top: 1%;
+      padding-top: 2%;
+      width: 97%;
+    }
 
-  .subcontents{
-    width: 44%;
-    margin-left: 4%;
-  }
-  #primero{
-    margin-top: 3%;
-  }
-
-}
-
-@media screen and (min-width: 1024px)
-{
+    .subcontents{
+      width: 44%;
+      margin-left: 4%;
+    }
+    #primero{
+      margin-top: 3%;
+    }
 
 }
+
