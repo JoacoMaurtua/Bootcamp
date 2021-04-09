@@ -18,8 +18,9 @@ body{
   margin-right: 10%;
 }
 
-#container form input{
+#container nav form input{
   border: 2px solid #2d7540;
+  width: 300px;
 }
 
 #container form button{
@@ -49,7 +50,7 @@ body{
 
 /*******ARTICLES********/
 #Articles{
-  margin: 1.5% 10%;
+  margin: 1.5% 14%;
 }
 
 #Articles .card h5{
@@ -115,6 +116,9 @@ body{
   margin: 0 auto;
   width: 35%;
 }
+#container form a{
+  text-decoration: none;
+}
 
 #container form button{
   margin: 0 auto;
@@ -123,5 +127,20 @@ body{
 }
 
 /******END FORM*******/
+
+
+/******FOOTER******/
+.footer ul{
+  background: #f1543f;
+  margin-top: 3%;
+  padding: 1%;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+}
 
 
