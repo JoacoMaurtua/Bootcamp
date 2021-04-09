@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
   </head>
@@ -80,7 +80,7 @@
             <img class="d-block w-100" src="images/gamming.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>¡Los Esports son tendencia!</h5>
-              <p>Cunado tus padres te decían que no ibas a ganar nada estando todo el día frente a la pantalla, no se imaginaban que de hecho...Si puedes y mucho</p>
+              <p>Cuando tus padres te decían que no ibas a ganar nada estando todo el día frente a la pantalla, no se imaginaban que de hecho... Si puedes y mucho</p>
             </div>
           </div>
         </div>
@@ -94,16 +94,62 @@
         </a>
       </div>
 
-       <!-------Jumbotron------>
-       <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+       <!-------Articulos------>
+       <div id="Articles">
+          <div class="card gamer" style="width: 20rem;">
+            <img class="card-img-top" src="images/gamer.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nuevas estrellas</h5>
+              <p class="card-text">Las mujeres cobran cada vez mas un papel importante en el mundo de los videojuegos, ¿seran acaso las nuevas estrellas del gamming?</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/vr.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">RV ¡El futuro!</h5>
+              <p class="card-text">Muchas empresas de tecnologia apuestan por nuevos proyectos de realidad virtual para juegos en primera persona y mucho mas...</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/mando.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">¿El mejor mando?</h5>
+              <p class="card-text">Hicimos una encuesta para determinar cual era el mando favorito para ustedes los gamers, ¿xbox o play station? ¿cual lleva la delantera?</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+      </div>
+
+      <!-------Jumbotron-------->
+
+      <div class="jumbotron">
+          <h1 class="display-4">¡Inscríbete a la E3!</h1>
+          <p class="lead">El momento de conocer las novedades del mercado de videojuegos ha llegado,<br> no te pierdas este colosal evento al que podras asistir desde tu casa.</p>
+          <hr class="my-4">
+          <p>Los cupos por este medio son limitados, y la venta hasta el 31 de Abril.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button" style="background-color: #2d7540; border: none;">Vamos a la E3</a>
         </p>
       </div>
+
+      <!-------FORM-------->
+      <form>
+        <h1>¡Ingresa a nuestro blog!</h1>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <a href="#"><small id="emailHelp" class="form-text text-muted">¿Todavía no te has registrado?</small></a>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     
   </body>
 </html>
