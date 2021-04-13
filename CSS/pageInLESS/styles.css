@@ -1,0 +1,112 @@
+* {
+  outline: 2px solid #FFF;
+}
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title {
+  background-color: #CF142B;
+  padding: 20px;
+  text-align: center;
+}
+#container h1 {
+  background-color: #CF142B;
+  padding: 20px;
+  text-align: center;
+}
+#container .parrafo {
+  display: inline-block;
+  margin: 15px 528px;
+  vertical-align: top;
+  width: 600px;
+}
+.function1 {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -329px;
+  margin-left: 100px;
+  padding-left: 0;
+  text-align: center;
+  width: 280px;
+  background-color: #CF142B;
+}
+#container .lista1 {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -329px;
+  margin-left: 100px;
+  padding-left: 0;
+  text-align: center;
+  width: 280px;
+  background-color: #CF142B;
+}
+#container .lista1 li {
+  margin: 20px 60px;
+  font-size: 150%;
+}
+#container .lista1 li a {
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #FFF;
+}
+#container .lista1 li a:hover {
+  color: #000;
+}
+#container .lista2 {
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -329px;
+  margin-left: 100px;
+  padding-left: 0;
+  text-align: center;
+  width: 280px;
+  background-color: #CF142B;
+  float: right;
+  margin-right: 100px;
+  width: 325px;
+}
+#container .lista2 li {
+  margin: 20px 60px;
+  font-size: 120%;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #FFF;
+}
+#container h2 {
+  background-color: #CF142B;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 500px;
+  margin: 35px 0px 35px 175px;
+}
+#container .function2 {
+  width: 700px;
+  font-size: 200%;
+  text-align: center;
+  display: inline-block;
+}
+#container .cinco {
+  width: 700px;
+  font-size: 200%;
+  text-align: center;
+  display: inline-block;
+  color: #CF142B;
+  margin-left: 80px;
+}
+#container .seis {
+  width: 700px;
+  font-size: 200%;
+  text-align: center;
+  display: inline-block;
+  color: #FFF;
+  margin-top: -233px;
+  margin-left: 895px;
+}
