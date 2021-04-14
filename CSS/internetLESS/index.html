@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <div id="container">
+
+      <!-----HEADER----->
+      <div class="header">
+        <img src="images/globe.png">
+        <h1>The Inter<span>net</span></h1>
+        <h2>The Wold Wide Web</h2>
+      </div>
+
+      <!-----SITEBAR------>
+      <div class="siteBar">
+          <h4>So, what's an <span>Internet?</span></h4>
+          <p>An <span>Inter</span>connected <span>Net</span>work of computers all around the world!
+          </p>
+          <button id="blue">WATCH A VIDEO</button>
+          <button id="orange">MORE RESOURCES</button>
+          <hr>
+
+          <!----Add---->
+          <div class="Add">
+              <p>Reinvent your career in just 14 weeks</p>
+              <img src="images/ninja.png" alt="ninja">
+              <button>
+                Learn More
+                <i class="fas fa-angle-double-right"></i>
+              </button>
+          </div>
+      </div>
+
+      <!-----MAIN SECTION------>
+      <div class="mainSection">
+        <div class="top">
+            <img class = "home" src="images/home.png" alt="home"><a href="#">DNS</a>
+            <img class="phone" src="images/phone.png">
+            <ul>
+            <li> Mon - Fri 9 a.m. - 5 p.m (EST)</li>
+            <li> International +1.617.963.0555</li>
+            </ul>
+            <h3>855.967.3787</h3>
+            <hr>
+        </div>
+        <h4>Clients and Servers</h4>
+        <p>Computers connected to the <span>Web</span> are called <b>clients</b> and <b>servers.</b>
+        <ul class="texto1">
+          <li><span>Clients</span> are the typical Web user's Internet-connected devices(for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span>Web-accessing software</span> available on the otehrs devices(usually a web browser like Firefox or Chrome).</li>
+
+          <li><span>Servers</span> are computers that store <span>webpages,</span><span> sites</span> or <span>apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server into the client machine to be displayed in the user's web browser.</li>  
+        </ul>
+        <img class = "clientServer" src="images/client_server.jpg">
+
+        <h4>So What Actually Happens?</h4>
+        <ol>
+          <li>The browser goes to the <span>DNS server</span> and finds the real address of the <span>server</span> that the website lives on.</li>
+
+          <li>The browser sends an <span>HTTP request</span> mesasage to the server asking it to send a copy of the website to the client</li>  
+
+          <li>If the server approves the client's request, the server sends the client a <span>"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a sereis of small chunks</li>
+
+          <li>The browser assembles the small chunks into a complete website and display it to you!</li>
+        </ol>
+        
+        <!----The Big 3!----->
+        <div class="wrapper">
+          <img src="images/html.png" alt="big3">
+          <h4>The big 3 - HTML, CSS, JavaScript</h4>
+          <p>While the server can process information in many different languages, the files that they serve to the client are <i>always</i> going to be some combinations of HTML, CSS and JavaScript!
+          <br>
+          Learn more about the Big 3 <a href="#">here</a>!
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+    
+  </body>
+</html>

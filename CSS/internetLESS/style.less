@@ -1,0 +1,330 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /*outline: 2px solid red;*/
+}
+
+@Letter1:'Roboto', sans-serif;
+@Letter2: Arial, Helvetica, sans-serif;
+@backGroundGrad1: linear-gradient(0deg, #fff, #ffffff, #f0ebeb);
+@backGroundHead: linear-gradient(180deg, #3470a3, #5382a8);
+@buttonOne: linear-gradient(180deg, #548cbb, #3170a7);
+@buttonTwo: linear-gradient(180deg, #eba74b, #ee8000);
+@backgroundButton: linear-gradient(180deg, #66cede, #02a1b9);
+@black: rgb(43, 41, 41);
+@lead: rgb(161, 158, 158);
+
+body {
+  font-family: @Letter1;
+  font-weight: normal;
+}
+
+/*******BEGIN THE HEADER SECTION*******/
+
+#container {
+    overflow: visible;
+    background: @backGroundGrad1;
+    width: 1000px;
+    min-height: 650px;
+    margin: 20px auto;
+
+    .header {
+        background-color: white;
+        min-height: 150px;
+        img{
+          width: 100px;
+          margin-left: 10px;
+        }
+        h1{
+          font-size: 50px;
+          font-weight: bold;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 22px;
+          color: #474747;
+
+            span{
+              color: #3572a6;
+            }
+        }
+        h2{
+          font-size: 35px;
+          font-weight: bold;
+          padding: 12px 0px;
+          padding-left: 25px;
+          background: @backGroundHead;
+          color: white;
+          margin-top: -21px;
+        }
+    }
+
+}
+
+/*******END THE HEADER SECTION*******/
+
+/*******BEGIN THE SITEBAR*******/
+
+.function1{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.aTags{
+  text-decoration: none;
+  font-weight: bold;
+  color: #44b4c5;
+}
+
+#container {
+    .siteBar {
+        display: inline-block;
+        width: 240px;
+        font-family: @Letter2;
+        vertical-align: top;
+
+        h4{
+            font-size: 17px;
+            font-weight: bolder;
+            margin: 25px 0px 10px 5px;
+            span{
+              color: #ca201a;
+            }
+
+        }
+
+        p{
+          .function1();
+          padding-right: 20px;
+          margin-bottom: 12px;
+          span{
+            color: #3170a4;
+          }
+
+        }
+
+        button{
+          .function1();
+          padding: 8px 15px;
+          box-shadow: 2px 3px @lead;
+          border-radius: 5px;
+          width: 215px;
+          margin-top: 8px;
+          color: white;
+
+        }
+
+        #blue{
+          background: @buttonOne;
+        }
+
+        #orange{
+          background: @buttonTwo;
+        }
+
+        .Add {
+            width: 220px;
+            min-height: 320px;
+            box-shadow: 3px 3px @lead;
+            margin-top: 28px;
+            background: url(images/ad_background.png);
+
+            p {
+                color: white;
+                display: inline-block;
+                text-align: center;
+                font-size: 25px;
+                font-weight: normal;
+                margin-top: 20px;
+                margin-left: 22px;
+            }
+
+            img {
+              width: 100px;
+              margin-left: 58px;
+              margin-top: -14px;
+            }
+
+            button {
+                background: @backgroundButton;
+                padding: 5px 0px;
+                width: 190px;
+                box-shadow: 2px 3px @black;
+                font-size: 18px;
+                margin-left: 14px;
+
+                i {
+                  vertical-align: middle;
+                }
+            }
+        }
+    }
+
+}
+
+hr {
+  width: 219px;
+  margin-top: 28px;
+}
+
+
+/*******END THE SITEBAR*******/
+
+/*******BEGIN THE MAIN SECTION*******/
+
+/********TOP SECTION*******/
+
+#container .mainSection {
+    display: inline-block;
+    width: 726px;
+    min-height: 548px;
+    overflow: hidden;
+    font-family: @Letter2;
+    .top{
+
+      .home{
+        height: 20px;
+        width: 22px;
+        margin-top: 10px;
+        margin-left: 16px;
+        vertical-align: top;
+      }
+
+      a {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 13px;
+        margin-left: 3px;
+        padding: 0px;
+        font-size: 16px;
+        .aTags();
+      }
+
+      .phone {
+        width: 45px;
+        margin-left: 427px;
+        margin-right: 15px;
+        margin-top: -40px;
+        vertical-align: middle;
+      }
+
+      h3 {
+        display: inline-block;
+        margin-left: 558px;
+        vertical-align: top;
+        margin-top: -43px;
+        font-weight: bolder;
+        font-size: 23px;
+        margin-right: 20px;
+        color: #01c0df;
+      }
+
+      ul {
+          display: inline-block;
+          list-style: none;
+          font-size: 10px;
+          font-weight: bold;
+          li {
+            color: #7d7d7d;
+            &:first-child {
+              margin-bottom: 35px;
+          }
+      }
+    }
+
+    hr {
+      width: 710px;
+      margin-top: -12px;
+      vertical-align: middle;
+      margin-left: 15px;
+    }
+  }
+
+  h4 {
+    color: #427aab;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 14px;
+  }
+
+  p {
+    margin: 5px 0px 0px 14px;
+    font-size: 14px;
+  }
+
+  .texto1 {
+      margin-left: 60px;
+      li {
+        margin-top: 8px;
+        padding-right: 30px;
+        font-size: 14px;
+        span {
+          color: #44b4c5;
+        }
+      }
+  }
+
+  .clientServer {
+    width: 260px;
+    margin: 10px 0px 0px 215px;
+  }
+
+  ol {
+    margin-left: 60px;
+    li {
+      margin-top: 8px;
+      padding-right: 30px;
+      font-size: 14px;
+      span {
+        color: #44b4c5;
+      }
+      
+    }
+  }
+  
+}
+
+/********END TOP SECTION*******/
+
+
+/********BIG3 SECTION*******/
+#container .mainSection{
+
+    .wrapper {
+      border: 5px solid #0085e0;
+      box-shadow: 2px 3px @lead;
+      border-bottom: none;
+      display: inline-block;
+      width: 634px;
+      margin-left: 41px;
+      margin-top: 20px;
+
+        img{
+          width: 100px;
+          margin-top: 8px;
+          margin-left: 10px;
+        }
+
+        h4{
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 8px;
+        }
+
+        p{
+          display: inline-block;
+          padding-right:40px;
+          vertical-align: top;
+          margin-left: 128px;
+          margin-top: -70px;
+        }
+
+        a{
+          .aTags();
+        }
+    }
+} 
+
+/********END BIG3 SECTION*******/
+
