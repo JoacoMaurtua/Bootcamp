@@ -67,8 +67,20 @@
   margin-bottom: 4px;
   margin-left: 0px;
   outline: 1px solid black;
+
+
 }
 
+#container .element p{
+  font-size: 12px;
+  color: black;
+}
+
+
+#container .element h1{
+  font-size: 20px;
+  margin: 4px 0;
+}
 /*******BLUES******/
 
 #blues{
@@ -83,6 +95,10 @@
 #blues .blue:not(.dos){
   background-color: #689bff;
   vertical-align: top;
+}
+
+#blues .blue h1{
+  color: #1a13a8;
 }
 
 
@@ -103,6 +119,9 @@
   vertical-align: top;
 }
 
+#reds .red h1{
+  color:#6a16a1;
+}
 
 /*******END REDS*******/
 
@@ -120,7 +139,10 @@
 #yellows .yellow:not(.uno,.dos,.tres,.cuatro,.cinco){
   background-color:#fecb00;
   vertical-align: top;
+}
 
+#yellows .yellow h1{
+  color: #333c7e;
 }
 
 
@@ -139,6 +161,10 @@
 {
   background-color:#1fca21;
   vertical-align: top;
+}
+
+#greens .green h1{
+  color: #1913a1;
 }
 
 
