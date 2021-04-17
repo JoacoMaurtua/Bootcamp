@@ -21,7 +21,6 @@
   color: #fa5b4b;
   font-size: 100%;
   margin: 10px 0 0 15px;
-  margin-right: 0;
   width: 58px;
 }
 
@@ -43,9 +42,8 @@
   margin-left: 47.6px;
 }
 
-#container .n-horizontal li:first-child{
-  margin-left: 20px;
-}
+#container .n-horizontal li:first-child{margin-left: 20px;}
+  
 
 #container .n-vertical{
   float: left;
@@ -53,11 +51,9 @@
   margin-top: -430px;
 }
 
-#container .n-vertical li{
-  margin-bottom: 43px;
-}
-
-/*******END NUMBERS*******/
+#container .n-vertical li{ margin-bottom: 43px;}
+ 
+/*******ELEMENTS*******/
 
 #container .element{
   text-align: center;
@@ -66,16 +62,16 @@
   height: 60px;
   margin-bottom: 4px;
   margin-left: 0px;
+}
+
+#container .element:not(.uno,.dos,.tres,.cuatro,.cinco){
   outline: 1px solid black;
-
-
 }
 
 #container .element p{
   font-size: 12px;
   color: black;
 }
-
 
 #container .element h1{
   font-size: 20px;
@@ -88,8 +84,7 @@
   min-height: 420px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 75px;
-  margin-top: 20px;
+  margin: 20px 0 0 75px;
 }
 
 #blues .blue:not(.dos){
@@ -97,21 +92,15 @@
   vertical-align: top;
 }
 
-#blues .blue h1{
-  color: #1a13a8;
-}
-
-
-/*******END BLUES******/
-
+#blues .blue h1{color: #1a13a8;}
+  
 /*******REDS*******/
 #reds{
   width: 641px;
   min-height: 237px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 15px;
-  margin-top: 217px;
+  margin: 217px 0 0 15px;
 }
 
 #reds .red{
@@ -119,21 +108,15 @@
   vertical-align: top;
 }
 
-#reds .red h1{
-  color:#6a16a1;
-}
-
-/*******END REDS*******/
-
+#reds .red h1{color:#6a16a1;}
+  
 /*******YELLOWS*******/
 
 #yellows{
   width: 383px;
   display: inline-block;
   vertical-align: top;
-  margin-left: -1px;
-  margin-top: 21px;
-  padding: 0;
+  margin: 21px 0 0 -1px;
 }
 
 #yellows .yellow:not(.uno,.dos,.tres,.cuatro,.cinco){
@@ -141,20 +124,14 @@
   vertical-align: top;
 }
 
-#yellows .yellow h1{
-  color: #333c7e;
-}
-
-
-/*******END YELLOWS*******/
-
+#yellows .yellow h1{color: #333c7e;}
+  
 /*******GREENS*******/
 #greens{
   width: 898px;
   min-height: 125px;
   display: inline-block;
-  margin-left: 220px;
-  margin-top: 30px;
+  margin: 30px 0 0 220px;
 }
 
 #greens .green
@@ -163,13 +140,27 @@
   vertical-align: top;
 }
 
-#greens .green h1{
-  color: #1913a1;
+#greens .green h1{color: #1913a1;}
+  
+/********CLASES********/
+#container .clases{
+  display: inline-block;
+  vertical-align: top;
+  width: 190px;
+  margin: -110px 40px 0px 30px;
 }
 
+#container .clases li{
+  display: inline-block;
+  margin-left: 38px;
+  margin-bottom: 50px;
+}
+
+#container .clases li:nth-child(4){margin-left: 48px;}
 
 
 
 
 
-/*******END GREENS*******/
+
+
