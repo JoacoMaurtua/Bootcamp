@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 1px solid red;
+}
+
+#container{
+  width: 80%;
+  margin: 5px auto;
+}
+
+.row{
+  padding: 10px;
+}
+
+.col{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Header{
+  background: #343a40;
+  height: 135px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#Header .col{
+  background: #46a3b8;
+  padding: 1%;
+  text-align: center;
+  margin-top: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+#siteBar{
+  height: 275px;
+  margin-left: -9px;
+  background: #46a3b8;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#main{
+  margin-left: 1.5%;
+  background: #f4c109;
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bold;
+  color: white;
+  overflow: hidden;
+}
+
+#main .article{
+  height: 400px;
+  background: white;
+}
+
+#footer{
+  background: #3ca745;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  height: 35px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px)
+{
+  #container{
+    width: 100%;
+  }
+
+  .sm-0{
+    display: none;
+  }
+
+  .sm-3{
+    width: 100%;
+  }
+
+  #main .row .sm-3{
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px){
+  
+  .md-1{
+    width: 33.3%;
+  }
+
+  .md-2{
+    width: 65.2%;
+  }
+
+  .md-3{
+    width: 33.3%;
+  }
+
+  #main .row .md-3{
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  
+
+}
+
+@media screen and (min-width: 1024px){
+  
+  
+  .lg-1{
+    width: 33.3%;
+  }
+
+  .lg-2{
+    width: 65.2%;
+    
+  }
+
+  #main .row .lg-1:first-child{
+    margin-right: 1%;
+
+  }
+
+  #main .row .lg-1{
+    width: 49%;
+  }
+
+  
+}
+
